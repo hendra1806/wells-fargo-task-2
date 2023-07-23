@@ -1,6 +1,5 @@
 package com.wellsfargo.counselor.entity;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -24,7 +23,7 @@ public class Advisor {
     public Advisor(String name, String email, String phone) {
         this.name = name;
         this.email = email;
-        this.phone = phone
+        this.phone = phone;
     }
 
     // Getters and Setters
@@ -53,6 +52,6 @@ public class Advisor {
     }
 
     public void setPhone(String phone) {
-        this.phone = phone
+        this.phone = phone;
     }
 }
